@@ -1,1 +1,20 @@
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+remote_theme: mmistakes/basically-basic-jekyll@master
+
+# Site Settings
+title: Ram K Dulal
+description: SEO & GEO Professional | Helping Brands Scale Organic Revenue.
+url: "https://ramkdulal.com.np"
+author:
+  name: Ram K Dulal
+  location: Kathmandu, Nepal
+  bio: "5+ years experience in optimising websites for organic leads and conversions. Specialising in Comprehensive SEO & GEO."
+  links:
+    - label: "WhatsApp"
+      icon: "fab fa-fw fa-whatsapp"
+      url: "http://wa.me/9779745979422" 
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
